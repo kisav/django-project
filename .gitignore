@@ -1,0 +1,5 @@
+# ignore all cashe
+__pycache__
+
+# ignore databases 
+db.sqlite3
