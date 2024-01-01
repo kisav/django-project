@@ -12,7 +12,8 @@ class MyClass:
 
 def index(request): # HttpRequest
     data = {
-            'title': 'Главная страница',
+            'title': 'главная страница',
+            'main_title': '',
             'menu': menu,
             'float': 28.56,
             'lst': [1, 2, 'abc', True],
